@@ -15,21 +15,21 @@ import javax.swing.JOptionPane;
 	    PrintWriter out;
 	    Socket s;
 	    
-	    			JPanel  panelObject; 
-	    			
-					JButton buttonClear;
-					JButton login;
-					JLabel  labelCustPass;
-					JLabel  labelCustName;
-					JLabel  labelCustVuvedi;
-				
-					JPasswordField  textCustPass;
-					JTextField 		textCustName;
-					TextArea			textArea;
-					JTextField 		textCustVuvedi;
+	    	JPanel  panelObject; 
+	    	
+			JButton buttonClear;
+			JButton login;
+			JLabel  labelCustPass;
+			JLabel  labelCustName;
+			JLabel  labelCustVuvedi;
 		
-					GridBagLayout      gbObject;
-					GridBagConstraints gbc;
+			JPasswordField  textCustPass;
+			JTextField textCustName;
+			TextArea textArea;
+			JTextField textCustVuvedi;
+	
+			GridBagLayout gbObject;
+			GridBagConstraints gbc;
 
 	public   void init() {
 			gbObject = new GridBagLayout();
