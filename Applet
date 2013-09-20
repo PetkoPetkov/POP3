@@ -42,7 +42,7 @@ import javax.swing.JOptionPane;
 			labelCustPass = new JLabel("Pass");
 			labelCustName = new JLabel("Name");
 			labelCustVuvedi = new JLabel("Filter e-mail by keyword");
-			textArea 	  = new TextArea(" Тук ще се показва съдържанието на съобщенията", 22, 66);	
+			textArea = new TextArea(" Тук ще се показва съдържанието на съобщенията", 22, 66);	
 			
 		// Input fields
 			textCustPass = new JPasswordField(11);
@@ -233,7 +233,7 @@ import javax.swing.JOptionPane;
 				send("RETR " +number);
 				textArea.append(number + "-----------------------------------");
 				while(!((line=in.readLine()).equals("."))) {
-						textArea.append(line + "\n");
+				textArea.append(line + "\n");
 				}
 			
 		} else {
